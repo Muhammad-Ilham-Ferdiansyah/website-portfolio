@@ -100,7 +100,7 @@ export const ListParagraph = styled.p`
 export const ListLogo = styled.li`
 max-width: 320px;
 display: flex;
-flex-direction: row;
+flex-direction: column;
 margin-bottom: 20px;
 @media ${props => props.theme.breakpoints.md}{
   max-width: 203px;
@@ -109,9 +109,17 @@ margin-bottom: 20px;
 @media ${props => props.theme.breakpoints.sm}{
   margin-bottom: 14px;
   max-width: 320px;
-  flex-direction: column;
+  flex-direction: row;
 }
 `
+
+// export const ListLogos = styled.li`
+// max-width: 320px;
+// display: flex;
+// flex-direction: row;
+// margin-bottom: 20px;
+// }
+// `
 
 export const ListItem = styled.li`
   max-width: 320px;

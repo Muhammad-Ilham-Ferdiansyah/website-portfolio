@@ -1,7 +1,7 @@
 import React from 'react';
-import { DiCodeigniter, DiCss3, DiFirebase, DiHtml5, DiJavascript, DiLaravel, DiReact, DiZend } from 'react-icons/di';
+import { DiCodeigniter, DiCss3, DiFirebase, DiHtml5, DiJavascript, DiLaravel, DiMysql, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListLogo, ListParagraph, ListTitle } from './TechnologiesStyles';
+import { List, ListContainer, ListItem, ListLogo, ListLogos, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
   <Section id='tech'>
@@ -16,7 +16,6 @@ const Technologies = () =>  (
       <ListItem>
         <ListLogo>
         <DiJavascript size="3rem"/>
-        <DiReact size="3rem"/>
         </ListLogo>
         <ListContainer>
           <ListTitle>Front End</ListTitle>
