@@ -9,12 +9,13 @@ const Hero = (props) => (
     <LeftSection>
       <SectionTitle main center>
         Welcome to <br/>
-        My Personal Portfolio
+        Muhammad Ilham Ferdiansyah Portfolio
       </SectionTitle>
       <SectionText>
       Innovative Front End Web Developer with 2 years experience building and designing responsive websites in Project of Indonesian Postal Polytechnic. Proficient in HTML, CSS, JavaScript include libraries and framework;
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>
+      <Button onClick={() => window.open('https://github.com/Muhammad-Ilham-Ferdiansyah','_blank'
+        )}>
         Learn more
       </Button>
     </LeftSection>
