@@ -69,7 +69,7 @@ export const BoxText = styled.p`
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 20px;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.75);
 

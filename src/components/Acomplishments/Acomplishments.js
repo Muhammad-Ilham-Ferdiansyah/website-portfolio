@@ -4,10 +4,10 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
+  { number: 2020, text: 'Certified of The SAP Course - SAP01 - SAP Overview'},
+  { number: 2021, text: 'Certified Data Science with Python - Intelligo.id', },
+  { number: 2021, text: 'Head of Informatics Engineering Student Association ', },
+  { number: 2021, text: 'Certified PHP with OOP-Based - Intelligo.id', }
 ];
 
 const Acomplishments = () => (
