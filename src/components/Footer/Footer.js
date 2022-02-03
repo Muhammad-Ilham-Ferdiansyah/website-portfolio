@@ -10,25 +10,24 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href='tel-077979847598'>077979847598</LinkItem>
+          <LinkItem href='https://wa.me/62881025207542' target="_blank">+62881025207542</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href='mailto:ilhamferdiansyah737@gmail.com'>ilhamferdiansyah737@gmail.com</LinkItem>
+          <LinkItem href='mailto:ilhamferdiansyah737@gmail.com' target="_blank">ilhamferdiansyah737@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href='https://github.com'>
+          <SocialIcons href='https://github.com/Muhammad-Ilham-Ferdiansyah' target="_blank">
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href='https://linkedin.com'>
+        <SocialIcons href='https://www.linkedin.com/in/muhammad-ilham-ferdiansyah/' target="_blank">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href='https://instagram.com'>
+        <SocialIcons href='https://instagram.com/hmfrdnsyh_' target="_blank">
           <AiFillInstagram size="3rem" />
         </SocialIcons>
         </SocialContainer>
