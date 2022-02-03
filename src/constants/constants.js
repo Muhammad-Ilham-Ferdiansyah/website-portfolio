@@ -18,9 +18,12 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2019, text: 'Started Coding, Learned HTML, CSS and JavaScript', },
+  { year: 2020, text: 'Completed Full Stack Developer of Project 1 Apparel Sewing Service App with PHP Native, Bootstrap 4 and Database MySQL', },
+  { year: 2021, text: 'Completed Front End Developer of Project 2 Student Exchange App with framework CodeIgniter and Database MySQL', },
+];
+export const TimeLineDataOrganization = [
+  { year: 2019, text: 'Join Event Organizer in Informatics Engineering Student Association', },
+  { year: 2020, text: 'Elected as a candidate for chairman of the association', },
+  { year: 2021, text: 'Head of Informatics Engineering Student Association', },
 ];
