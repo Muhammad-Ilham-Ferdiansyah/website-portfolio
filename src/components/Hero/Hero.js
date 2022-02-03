@@ -8,7 +8,7 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Muhammad Ilham Ferdiansyah Portfolio
+        Muhammad Ilham Ferdiansyah <br/> Portfolio
       </SectionTitle>
       <SectionText>
       Innovative Front End Web Developer with 2 years experience building and designing responsive websites in Project of Indonesian Postal Polytechnic. Proficient in HTML, CSS, JavaScript include libraries and framework;
