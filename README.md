@@ -1,4 +1,4 @@
-<p align="center"><img width=15% src="https://res.cloudinary.com/dffrqml8w/image/upload/v1645420125/Screenshot_106_h9pbdd.png"></p>
+<p align="center"><img width=100% src="https://res.cloudinary.com/dffrqml8w/image/upload/v1645420125/Screenshot_106_h9pbdd.png"></p>
 <h1 align="center">Personal Portfolio</h1>
 <h4 align="center">Muhammad Ilham Ferdiansyah - Portfolio</h4>
 
