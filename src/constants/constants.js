@@ -9,10 +9,10 @@ export const projects = [
   },
   {
     title: 'Student Exchange Application',
-    description:"The exchange of students in the independent learning program and the independent campus is that students are given the freedom to study outside the campus. This study aims to increase the creativity of every student who participates in the student exchange program. Implementation using the CodeIgniter framework and MySQL database.",
+    description:"The exchange of students in the independent learning program and the independent campus is that students are given the freedom to study outside the campus.  Implementation using the CodeIgniter framework and MySQL database.",
     image: '/images/project2.jpeg',
     tags: ['PHP', 'CodeIgniter', 'MySQL'],
-    visit: 'http://apem.infinityfreeapp.com/',
+    visit: 'https://aplikasi-pertukaran-mahasiswa.000webhostapp.com/',
     id: 1,
   },
 ];
