@@ -18,7 +18,7 @@ export const Boxes = styled.div`
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     max-width: 500px;
-    margin: 24px auto;
+    margin: 20px auto;
   }
 `
 
@@ -38,11 +38,11 @@ export const Box = styled.div`
   }
 
   @media ${props => props.theme.breakpoints.sm} {
-    height: 150px;
+    height: 140px;
     padding: 10px;
     
-    &:nth-child(2n){
-      grid-row:2;
+    &:nth-child(3n){
+      grid-row:3;
     }
   }
 `

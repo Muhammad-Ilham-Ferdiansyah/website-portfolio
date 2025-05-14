@@ -15,17 +15,17 @@ const Header = () =>  (
       </Link>
     </Div1>
     <Div2>
-      <li>
+      <li style={{ display: "none"}}>
         <Link href="#projects" style={{ color: 'rgba(255, 255, 255, 0.75)', fontSize: '2rem', lineHeight: '32px', transition: '0.4s ease', textDecoration: 'none' }}>
           Projects
         </Link>
       </li>
-      <li>
+      <li style={{ display: "none"}}>
         <Link href="#tech" style={{ color: 'rgba(255, 255, 255, 0.75)', fontSize: '2rem', lineHeight: '32px', transition: '0.4s ease', textDecoration: 'none' }}>
           Technologies
         </Link>
       </li>
-      <li>
+      <li style={{ display: "none"}}>
         <Link href="#about" style={{ color: 'rgba(255, 255, 255, 0.75)', fontSize: '2rem', lineHeight: '32px', transition: '0.4s ease', textDecoration: 'none' }}>
           About
         </Link>
