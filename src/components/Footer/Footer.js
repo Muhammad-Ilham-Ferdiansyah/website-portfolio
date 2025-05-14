@@ -27,7 +27,7 @@ const Footer = () => {
         <SocialIcons href='https://www.linkedin.com/in/muhammad-ilham-ferdiansyah/' target="_blank">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href='https://instagram.com/hmfrdnsyh_' target="_blank">
+        <SocialIcons href='https://instagram.com/ilhamferdd' target="_blank">
           <AiFillInstagram size="3rem" />
         </SocialIcons>
         </SocialContainer>

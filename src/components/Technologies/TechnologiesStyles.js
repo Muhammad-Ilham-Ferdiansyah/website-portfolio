@@ -1,3 +1,5 @@
+'use client'
+
 import styled from 'styled-components'
 
 export const ImageContainer = styled.div`
@@ -97,20 +99,20 @@ export const ListParagraph = styled.p`
   }
 `
 
-export const ListLogo = styled.li`
-max-width: 320px;
-display: flex;
-flex-direction: column;
-margin-bottom: 20px;
-@media ${props => props.theme.breakpoints.md}{
-  max-width: 203px;
-}
-
-@media ${props => props.theme.breakpoints.sm}{
-  margin-bottom: 14px;
+export const ListLogo = styled.div`
   max-width: 320px;
-  flex-direction: row;
-}
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  @media ${props => props.theme.breakpoints.md}{
+    max-width: 203px;
+  }
+
+  @media ${props => props.theme.breakpoints.sm}{
+    margin-bottom: 14px;
+    max-width: 320px;
+    flex-direction: row;
+  }
 `
 
 // export const ListLogos = styled.li`

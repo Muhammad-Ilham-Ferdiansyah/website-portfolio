@@ -1,3 +1,5 @@
+'use client'
+
 import { ThemeProvider } from 'styled-components';
 
 import theme from "../themes/default";

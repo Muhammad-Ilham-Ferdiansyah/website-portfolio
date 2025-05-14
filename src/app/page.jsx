@@ -7,10 +7,10 @@ import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
-const Home = () => {
+export default function Home() {
   return (
     <Layout>
-      <Section grid>
+      <Section $grid>
         <Hero />
         <BgAnimation />
       </Section>
@@ -20,6 +20,4 @@ const Home = () => {
       <Acomplishments />
     </Layout>
   );
-};
-
-export default Home;
+} 

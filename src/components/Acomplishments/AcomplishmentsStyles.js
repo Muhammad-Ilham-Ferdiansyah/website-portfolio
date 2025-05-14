@@ -38,8 +38,8 @@ export const Box = styled.div`
   }
 
   @media ${props => props.theme.breakpoints.sm} {
-    height: 110px;
-    padding: 12px;
+    height: 150px;
+    padding: 10px;
     
     &:nth-child(2n){
       grid-row:2;
@@ -128,7 +128,7 @@ export const IconContainer = styled.div`
   display: flex;
 
   @media ${props => props.theme.breakpoints.sm}{
-    width: 160px;
+    width: 200px;
     justify-content: space-between;
   }
 `

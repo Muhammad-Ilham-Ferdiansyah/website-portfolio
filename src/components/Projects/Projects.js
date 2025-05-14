@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
@@ -6,15 +8,15 @@ import { projects } from '../../constants/constants';
 
 
 const Projects = () => (
-  <Section nopadding id='projects'>
+  <Section $nopadding id='projects'>
     <SectionDivider/>
-    <SectionTitle main>Projects</SectionTitle>
+    <SectionTitle $main>Projects</SectionTitle>
     <GridContainer>
-      {projects.map(({id, image, title, description, tags, source, visit}) => (
+      {projects.map(({id, image, title, description, tags}) => (
         <BlogCard key={id}>
           <Img src={image} />
           <TitleContent>
-            <HeaderThree title>
+            <HeaderThree $title>
             {title}
             </HeaderThree>
             <Hr/>
@@ -29,10 +31,10 @@ const Projects = () => (
               ))}
             </TagList>
           </div>
-          <UtilityList>
-            <ExternalLinks href={visit} target="_blank">Visit</ExternalLinks>
+          {/* <UtilityList> */}
+            {/* <ExternalLinks href={visit} target="_blank">Visit</ExternalLinks> */}
             {/* <ExternalLinks href={source}>Source</ExternalLinks> */}
-          </UtilityList>
+          {/* </UtilityList> */}
         </BlogCard>
       ))}
     </GridContainer>

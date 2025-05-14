@@ -1,12 +1,13 @@
-import React from 'react';
-import { DiCodeigniter, DiCss3, DiFirebase, DiHtml5, DiJavascript, DiLaravel, DiMysql, DiReact, DiZend } from 'react-icons/di';
+'use client'
+
+import { DiJavascript, DiLaravel, DiMsqlServer } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListLogo, ListLogos, ListParagraph, ListTitle } from './TechnologiesStyles';
+import { List, ListContainer, ListItem, ListLogo, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
   <Section id='tech'>
     <SectionDivider/>
-    <SectionTitle main>
+    <SectionTitle $main>
       Technologies
     </SectionTitle>
     <SectionText>
@@ -21,19 +22,7 @@ const Technologies = () =>  (
           <ListTitle>Front End</ListTitle>
           <ListParagraph>
             Experience with <br/>
-            JavaScript and React.js
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <ListLogo>
-        <DiCodeigniter size="3rem"/>
-        </ListLogo>
-        <ListContainer>
-          <ListTitle>Full Stack</ListTitle>
-          <ListParagraph>
-            Experience with <br/>
-            CodeIgniter and MySQL
+            JavaScript, React.js and Next.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -45,7 +34,19 @@ const Technologies = () =>  (
           <ListTitle>Full Stack</ListTitle>
           <ListParagraph>
             Experience with <br/>
-            Laravel and MySQL
+            Laravel and CodeIgniter
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <ListLogo>
+        <DiMsqlServer size="3rem"/>
+        </ListLogo>
+        <ListContainer>
+          <ListTitle>Databases</ListTitle>
+          <ListParagraph>
+            Experience with <br/>
+            Microsoft SQL Server, MySQL and MongoDB
           </ListParagraph>
         </ListContainer>
       </ListItem>

@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
@@ -8,26 +10,24 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './Heade
 const Header = () =>  (
   <Container>
     <Div1>
-      <Link href="/">
-        <a style={{ display: "flex", alignItems:"center", color:"white", marginBottom:"20px" }}>
+      <Link href="/" style={{ display: "flex", alignItems:"center", color:"white", marginBottom:"20px", textDecoration: "none" }}>
           <DiCssdeck size="3rem"/> <Span>ilhamFerdiansyah</Span>
-        </a>
       </Link>
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
-          <NavLink>Projects</NavLink>
+        <Link href="#projects" style={{ color: 'rgba(255, 255, 255, 0.75)', fontSize: '2rem', lineHeight: '32px', transition: '0.4s ease', textDecoration: 'none' }}>
+          Projects
         </Link>
       </li>
       <li>
-        <Link href="#tech">
-          <NavLink>Technologies</NavLink>
+        <Link href="#tech" style={{ color: 'rgba(255, 255, 255, 0.75)', fontSize: '2rem', lineHeight: '32px', transition: '0.4s ease', textDecoration: 'none' }}>
+          Technologies
         </Link>
       </li>
       <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
+        <Link href="#about" style={{ color: 'rgba(255, 255, 255, 0.75)', fontSize: '2rem', lineHeight: '32px', transition: '0.4s ease', textDecoration: 'none' }}>
+          About
         </Link>
       </li>
     </Div2>
@@ -38,7 +38,7 @@ const Header = () =>  (
       <SocialIcons href='https://www.linkedin.com/in/muhammad-ilham-ferdiansyah/' target="_blank">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href='https://instagram.com/hmfrdnsyh_' target="_blank">
+      <SocialIcons href='https://instagram.com/ilhamferdd' target="_blank">
         <AiFillInstagram size="3rem" />
       </SocialIcons>
     </Div3>

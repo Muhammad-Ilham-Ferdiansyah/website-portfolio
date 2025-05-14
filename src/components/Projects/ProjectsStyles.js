@@ -1,3 +1,5 @@
+'use client'
+
 import styled from 'styled-components';
 
 export const Img = styled.img`
@@ -33,6 +35,7 @@ export const BlogCard = styled.div`
 `;
 export const TitleContent = styled.div`
   text-align: center;
+  padding: 1rem;
   z-index: 20;
   width: 100%;
 
@@ -43,7 +46,7 @@ export const HeaderThree = styled.h3`
   font-weight: 500;
   color: #9cc9e3;
   padding: .5rem 0;
-  font-size: ${(props) => props.title ? '3rem' : '2rem'};
+  font-size: ${(props) => props.$title ? '3rem' : '2rem'};
 `;
 
 export const Hr = styled.hr`
